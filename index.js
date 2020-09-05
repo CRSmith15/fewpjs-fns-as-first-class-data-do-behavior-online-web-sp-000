@@ -17,6 +17,6 @@ function greet(time) {
   else return "Good Afternoon"
 }
 /* Write your implementation of displayMessage() */
-function displayMessage() {
-
+function displayMessage(message) {
+  document.getElementById("greeting").innerText = message
 }
